@@ -1,3 +1,4 @@
+baseurl: "/Cookbook"
 title: Moje Kuchařka
 remote_theme: jekyll/minima
 incremental: true
