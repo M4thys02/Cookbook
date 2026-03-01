@@ -25,7 +25,7 @@ if (searchInput) {
         const query = e.target.value.toLowerCase();
         
         // 1. Load searching index
-        const response = await fetch('/kucharka/search.json'); // Dont forget base URL
+        const response = await fetch('/Cookbook/search.json'); // Dont forget base URL
         const recipes = await response.json();
 
         // 2. Clean up old results
