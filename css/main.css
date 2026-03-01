@@ -1,3 +1,33 @@
+/* Basic layout of site body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffaf5;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fcf8f2;
+    border-bottom: 2px solid #e0d5c5;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    color: #2e1a12;
+}
+
+.quote {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #5d4037;
+    margin-top: 10px;
+}
+
 /* Burger */
 .burger {
     position: absolute;
@@ -16,7 +46,7 @@
     transition: 0.3s;
 }
 
-/* Animace do X */
+/* Animation to X */
 .burger.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
