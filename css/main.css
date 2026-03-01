@@ -1,0 +1,78 @@
+/* Burger */
+.burger {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    background: #5d4037;
+    margin: 6px 0;
+    transition: 0.3s;
+}
+
+/* Animace do X */
+.burger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.burger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu */
+nav {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    padding-top: 100px;
+    transition: left 0.3s ease;
+    z-index: 1000;
+}
+
+nav.open {
+    left: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    padding: 15px 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5d4037;
+    font-weight: 500;
+}
+
+/* Overlay */
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+#overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
