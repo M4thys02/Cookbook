@@ -20,13 +20,18 @@ h1 {
     color: #2e1a12;
 }
 
-/* Style for list of ingredients*/
-main ul {
-    list-style: none;
+/*Style for instruction*/
+main ol li {
     padding-left: 0;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    cursor: default;
 }
 
-main li {
+/* Style for list of ingredients*/
+main ul li {
+    list-style: none;
+    padding-left: 0;
     display: flex;
     align-items: center;
     margin-bottom: 12px;
