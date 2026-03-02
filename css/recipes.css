@@ -1,0 +1,66 @@
+/* Basic layout of site body */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffaf5;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fcf8f2;
+    border-bottom: 2px solid #e0d5c5;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 0;
+    color: #2e1a12;
+}
+
+/* Styl pro seznam surovin */
+main ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+main li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    user-select: none; /* Zabraní nechtěnému označování textu při klikání */
+}
+
+/* Vytvoření čtverečku před textem */
+main li::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex-shrink: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.2s ease;
+}
+
+/* STAV PŘI ODŠKRTNUTÍ */
+main li.done {
+    color: #a0a0a0;
+    text-decoration: line-through;
+}
+
+/* Zelený čtvereček s fajfkou */
+main li.done::before {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z'/%3E%3C/svg%3E");
+    background-size: 14px;
+}
