@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-const items = document.querySelectorAll('main li');
+const items = document.querySelectorAll('main ul li');
 
 items.forEach(item => {
     item.addEventListener('click', () => {

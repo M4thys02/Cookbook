@@ -20,7 +20,7 @@ h1 {
     color: #2e1a12;
 }
 
-/* Styl pro seznam surovin */
+/* Style for list of ingredients*/
 main ul {
     list-style: none;
     padding-left: 0;
@@ -32,11 +32,11 @@ main li {
     margin-bottom: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
-    user-select: none; /* Zabraní nechtěnému označování textu při klikání */
+    user-select: none;
 }
 
-/* Vytvoření čtverečku před textem */
-main li::before {
+/* Creating checkbox in front of text */
+main ul li::before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -51,16 +51,17 @@ main li::before {
     transition: all 0.2s ease;
 }
 
-/* STAV PŘI ODŠKRTNUTÍ */
-main li.done {
+/* STATE AFTER UN-CHECK */
+main ul li.done {
     color: #a0a0a0;
     text-decoration: line-through;
 }
 
-/* Zelený čtvereček s fajfkou */
-main li.done::before {
+/* Green checkmark */
+main ul li.done::before {
     background-color: #4CAF50;
     border-color: #4CAF50;
     background-image: url("../assets/checkmark.svg");
-    background-size: 14px;
+    background-size: 20px;
+    border: 2px solid #fff;
 }
