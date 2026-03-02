@@ -24,6 +24,7 @@ h1 {
 main ol li {
     padding-left: 0;
     margin-bottom: 15px;
+    margin-right: 15px;
     line-height: 1.6;
     cursor: default;
 }
@@ -34,7 +35,7 @@ main ul li {
     padding-left: 0;
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.2s ease;
     user-select: none;
@@ -68,5 +69,4 @@ main ul li.done::before {
     border-color: #4CAF50;
     background-image: url("../assets/checkmark.svg");
     background-size: 20px;
-    border: 2px solid #fff;
 }
