@@ -68,5 +68,6 @@ main ul li.done::before {
     background-color: #4CAF50;
     border-color: #4CAF50;
     background-image: url("../assets/checkmark.svg");
-    background-size: 20px;
+    background-size: contain;
+    background-origin: border-box;
 }
