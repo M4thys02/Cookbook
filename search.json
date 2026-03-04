@@ -4,9 +4,9 @@ layout: none
 [
   {% for recept in site.recipes %}
     {
-      "title": {{ recipes.title | jsonify }},
-      "category": {{ recipes.category | jsonify }},
-      "url": {{ recipes.url | relative_url | jsonify }}
+      "title": {{ recipe.title | jsonify }},
+      "category": {{ recipe.category | jsonify }},
+      "url": {{ recipe.url | relative_url | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]
