@@ -70,3 +70,81 @@ main ul li.done::before {
     background-image: url("../assets/checkmark.svg");
     background-size: contain;
 }
+
+/* Footer container */
+.site-footer {
+    background-color: #fcf8f2;
+    border-top: 2px solid #e0d5c5;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #5d4037;
+}
+
+/* Section with information */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.footer-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #2e1a12;
+    border-bottom: 1px solid #e0d5c5;
+    display: inline-block;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.footer-list a {
+    color: #5d4037;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-list a:hover {
+    color: #4677bc;
+}
+
+/* Link to github site */
+.footer-bottom {
+    background-color: #f5eedf;
+    border-top: 1px solid #e0d5c5;
+    text-align: center;
+}
+
+.footer-bottom a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #5d4037;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.footer-bottom a:hover {
+    background-color: #e0d5c5;
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}

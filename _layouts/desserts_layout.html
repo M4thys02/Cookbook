@@ -13,12 +13,45 @@
         <p class="category">Kategorie: {{ page.category }}</p>
     </header>
 
+    <nav id="menu">
+    <ul>
+        <li><a href="categories/sweet/sweet_index.html">Sladká jídla</a></li>
+        <li><a href="categories/desserts/desserts_index.html">Dezerty</a></li>
+        <li><a href="categories/spreads/spreads_index.html">Pomazánky</a></li>
+        <li><a href="categories/savory/savory_index.html">Slaná jídla</a></li>
+        <li><a href="categories/sauces/sauces_index.html">Omáčky</a></li>
+        <li><a href="categories/soups/soups_index.html">Polévky</a></li>
+        <li><a href="categories/christmas_sweets/christmas_index.html">Vánoční cukroví</a></li>
+        
+        <li class="back-link"><a href="https://m4thys02.github.io/">← Zpět</a></li>
+    </ul>
+</nav>
+
     <main>
         {{ content }}
     </main>
 
-    <footer>
-        <a href="https://m4thys02.github.io/Cookbook/">← Zpět na úvod</a>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Vypracoval</h3>
+                <ul class="footer-list">
+                    <li>Matěj Maroušek</li>
+                    <li><a href="mailto:matej.marousek@seznam.cz">matej.marousek@seznam.cz</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Předmět</h3>
+                <ul class="footer-list">
+                    <li>Úvod do počítačových sítí</li>
+                    <li>NSWI141</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="https://m4thys02.github.io/">Osobní stránka</a>
+        </div>
     </footer>
 </body>
 </html>
