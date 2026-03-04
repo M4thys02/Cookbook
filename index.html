@@ -21,11 +21,11 @@
     </div>
     <h1>Kuchařka</h1>
     <p class="quote">„Tuk je nositel chuti“</p>
+    <p>Počet receptů v systému: {{ site.recipes | size }}</p>
 
     <section class="search-container">
         <input type="text" id="recipe-search" placeholder="Hledat recept (např. palačinky)...">
         <ul id="search-results"></ul>
-        <p>Počet receptů v systému: {{ site.recipes | size }}</p>
     </section>
 </header>
 
