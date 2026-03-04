@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    
-    <title>checkmark-square</title>
-    <desc>Created with Sketch Beta.</desc>
-    <defs>
 
-</defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Icon-Set" sketch:type="MSLayerGroup" transform="translate(-256.000000, -1035.000000)" fill="#000000">
-            <path d="M286,1063 C286,1064.1 285.104,1065 284,1065 L260,1065 C258.896,1065 258,1064.1 258,1063 L258,1039 C258,1037.9 258.896,1037 260,1037 L284,1037 C285.104,1037 286,1037.9 286,1039 L286,1063 L286,1063 Z M284,1035 L260,1035 C257.791,1035 256,1036.79 256,1039 L256,1063 C256,1065.21 257.791,1067 260,1067 L284,1067 C286.209,1067 288,1065.21 288,1063 L288,1039 C288,1036.79 286.209,1035 284,1035 L284,1035 Z M278.027,1044.07 C277.548,1043.79 276.937,1043.96 276.661,1044.43 L270.266,1055.51 L266.688,1052.21 C266.31,1051.81 265.677,1051.79 265.274,1052.17 C264.871,1052.54 264.85,1053.18 265.228,1053.58 L269.8,1057.8 C270.177,1058.2 270.81,1058.22 271.213,1057.84 C271.335,1057.73 278.393,1045.43 278.393,1045.43 C278.669,1044.96 278.505,1044.34 278.027,1044.07 L278.027,1044.07 Z" id="checkmark-square" sketch:type="MSShapeGroup">
-
-</path>
-        </g>
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="checkmark.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.97125"
+     inkscape:cx="400.5148"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <title
+     id="title1">checkmark-square</title>
+  <desc
+     id="desc1">Created with Sketch Beta.</desc>
+  <defs
+     id="defs1" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     sketch:type="MSPage">
+    <g
+       id="Icon-Set"
+       sketch:type="MSLayerGroup"
+       transform="translate(-256.000000, -1035.000000)"
+       fill="#000000">
+      <path
+         d="M286,1063 C286,1064.1 285.104,1065 284,1065 L260,1065 C258.896,1065 258,1064.1 258,1063 L258,1039 C258,1037.9 258.896,1037 260,1037 L284,1037 C285.104,1037 286,1037.9 286,1039 L286,1063 L286,1063 Z M284,1035 L260,1035 C257.791,1035 256,1036.79 256,1039 L256,1063 C256,1065.21 257.791,1067 260,1067 L284,1067 C286.209,1067 288,1065.21 288,1063 L288,1039 C288,1036.79 286.209,1035 284,1035 L284,1035 Z M278.027,1044.07 C277.548,1043.79 276.937,1043.96 276.661,1044.43 L270.266,1055.51 L266.688,1052.21 C266.31,1051.81 265.677,1051.79 265.274,1052.17 C264.871,1052.54 264.85,1053.18 265.228,1053.58 L269.8,1057.8 C270.177,1058.2 270.81,1058.22 271.213,1057.84 C271.335,1057.73 278.393,1045.43 278.393,1045.43 C278.669,1044.96 278.505,1044.34 278.027,1044.07 L278.027,1044.07 Z"
+         id="checkmark-square"
+         sketch:type="MSShapeGroup"
+         style="fill:#ffffff" />
     </g>
+  </g>
 </svg>
