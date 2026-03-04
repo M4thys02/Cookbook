@@ -2,7 +2,7 @@
 layout: none
 ---
 [
-  {% for post in site.posts %}
+  {% for recept in site.recepty %}
     {
       "title": {{ post.title | jsonify }},
       "category": {{ post.category | jsonify }},

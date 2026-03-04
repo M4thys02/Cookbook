@@ -2,3 +2,9 @@ baseurl: "/Cookbook"
 title: Moje Kuchařka
 remote_theme: jekyll/minima
 incremental: true
+
+# Colection definiton
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
