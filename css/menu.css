@@ -75,6 +75,21 @@ nav a {
     font-weight: 500;
 }
 
+nav a.active {
+    font-weight: bold;
+    border-left: 3px solid #4677bc;
+    padding-left: 22px;
+}
+
+nav a:hover {
+    color: #4677bc;
+    transition: color 0.2s ease;
+}
+
+nav li:hover {
+    background-color: #fcf8f2;
+}
+
 /* Overlay */
 #overlay {
     position: fixed;
