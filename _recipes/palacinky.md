@@ -2,7 +2,7 @@
 layout: desserts_layout
 title: "Domácí palačinky"
 category: "Dezerty, sladká jídla"
-permalink: /desserts/palacinky/
+permalink: /categories/desserts/palacinky/
 ---
 
 ### Ingredience

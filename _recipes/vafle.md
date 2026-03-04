@@ -2,7 +2,7 @@
 layout: desserts_layout
 title: "Domácí vafle verze I - rychlé"
 category: "Dezerty, sladká jídla"
-permalink: /desserts/vafle/
+permalink: /categories/desserts/vafle/
 ---
 
 ### Ingredience
