@@ -2,7 +2,7 @@
 layout: none
 ---
 [
-  {% for recept in site.recipes %}
+  {% for recipe in site.recipes %}
     {
       "title": {{ recipe.title | jsonify }},
       "category": {{ recipe.category | jsonify }},
