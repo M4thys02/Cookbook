@@ -22,6 +22,5 @@ category: "Pomazánky"
 4. Dochucujeme dle potřeby solí, citronem, případně kečupem.
 5. Můžeme ihned servírovat nebo necháme uležet v lednici třeba přes noc.
 
-> **Tip:** Opatrně, aby nebyla vajíčka ještě teplá.
-
+> **Tip:** Opatrně, aby nebyla vajíčka ještě teplá.  
 > **Tip:** Ideální je servírovat na čerstvém chlebu, případně toustovém chlebu.

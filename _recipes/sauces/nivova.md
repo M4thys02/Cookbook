@@ -26,8 +26,10 @@ category: "Omáčky, slaná jídla"
 3. Cibuli chvíli restujeme dokud nezměkne a nezesklovatí. Poté přidáme maso.
 4. Pokud jsme maso nekořenili předem, okořeníme ho v hrnci. Zprudka zatáhneme a chvíli restujeme.
 5. Po chvíli snížíme teplotu. V principu pak nastávají 2 situace:
-    - a) Maso bylo dostatečně vodnaté.
-    - b) Maso bylo suché a je potřeba trošku podlít vodou.
+    <ol type="a">
+        <li>Maso bylo dostatečně vodnaté.</li>
+        <li>Maso bylo suché a je potřeba trošku podlít vodou.</li>
+    </ol>
 6. Když je v hrnci vody hodně, stačí jí nechat vyvařit chvíli. Zbytek poslouží jako dobrý základ pro omáčku. Občas je potřeba maso chvíli dusit, k tomu lze přebytečná voda použít.
 7. Když je maso dostatečně udělané, přidáme nivu. Ta se rozpustí a vytvoří hustý základ omáčky. Ztlumíme teplotu na málo.
 8. Přidáme nakrájený pórek.
@@ -36,5 +38,5 @@ category: "Omáčky, slaná jídla"
 10. Můžeme ještě chvíli vařit pro odpaření vody, ale pozor na oddělení tuku od vody ze smetany.
 11. Servírujeme.
 
-> **Tip:** S krůtím masem je omáčka lepší.
+> **Tip:** S krůtím masem je omáčka lepší.  
 > **Tip:** Podáváme s rýží, těstovinami nebo kroketami.
