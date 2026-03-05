@@ -11,6 +11,11 @@
 </head>
 <body>
     <header>
+        <div class="burger" aria-label="Otevřít menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <h1>{{ page.title }}</h1>
         <p class="category">Kategorie: {{ page.category }}</p>
     </header>
@@ -29,6 +34,8 @@
         </ul>
     </nav>
 
+    <div id="overlay"></div>
+
     <main>
         {{ content }}
     </main>
@@ -36,23 +43,19 @@
     <footer class="site-footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h3>Vypracoval</h3>
+                <h3>Autor</h3>
                 <ul class="footer-list">
                     <li>Matěj Maroušek</li>
-                    <li><a href="mailto:matej.marousek@seznam.cz">matej.marousek@seznam.cz</a></li>
+                    <li><a href="mailto:matej.marousek150@student.cuni.cz">Email</a></li>
                 </ul>
             </div>
 
             <div class="footer-section">
-                <h3>Předmět</h3>
+                <h3>Odkazy</h3>
                 <ul class="footer-list">
-                    <li>Úvod do počítačových sítí</li>
-                    <li>NSWI141</li>
+                    <li><a href="https://m4thys02.github.io/">Osobní stránka</a></li>
                 </ul>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <a href="https://m4thys02.github.io/">Osobní stránka</a>
         </div>
     </footer>
 </body>

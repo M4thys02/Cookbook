@@ -103,6 +103,7 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
     gap: 30px;
+    background-color: #f5eedf;
 }
 
 .footer-section h3 {
@@ -133,26 +134,6 @@ h1 {
 
 .footer-list a:hover {
     color: #4677bc;
-}
-
-/* Link to github site */
-.footer-bottom {
-    background-color: #f5eedf;
-    border-top: 1px solid #e0d5c5;
-    text-align: center;
-}
-
-.footer-bottom a {
-    display: block;
-    padding: 20px;
-    text-decoration: none;
-    color: #5d4037;
-    font-weight: bold;
-    transition: background 0.3s;
-}
-
-.footer-bottom a:hover {
-    background-color: #e0d5c5;
 }
 
 /* For mobile phones */

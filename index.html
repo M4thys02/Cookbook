@@ -25,12 +25,6 @@ layout: none
     <h1>Kuchařka</h1>
     <p class="quote">„Tuk je nositel chuti“</p>
 
-    <ul>
-    {% for recipe in site.recipes %}
-    <li>{{ recipe.title }}</li>
-    {% endfor %}
-    </ul>
-
     <section class="search-container">
         <input type="text" id="recipe-search" placeholder="Hledat recept (např. palačinky)...">
         <ul id="search-results"></ul>
