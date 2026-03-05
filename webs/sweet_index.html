@@ -1,0 +1,51 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuchařka</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/menu_anim.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="burger" aria-label="Otevřít menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <h1>Kuchařka</h1>
+    <p class="quote">„Tuk je nositel chuti“</p>
+
+    <section class="search-container">
+        <input type="text" id="recipe-search" placeholder="Hledat recept (např. palačinky)...">
+        <ul id="search-results"></ul>
+    </section>
+</header>
+
+<nav id="menu">
+    <ul>
+        <li><a href="/webs/sweet_index.html">Sladká jídla</a></li>
+        <li><a href="/webs/desserts_index.html">Dezerty</a></li>
+        <li><a href="/webs/spreads_index.html">Pomazánky</a></li>
+        <li><a href="/webs/savory_index.html">Slaná jídla</a></li>
+        <li><a href="/webs/sauces_index.html">Omáčky</a></li>
+        <li><a href="/webs/soups_index.html">Polévky</a></li>
+        <li><a href="/webs/christmas_sweets/christmas_index.html">Vánoční cukroví</a></li>
+        
+        <li class="back-link"><a href="https://m4thys02.github.io/">← Zpět</a></li>
+    </ul>
+</nav>
+
+<div id="overlay"></div>
+
+</body>
+</html>
