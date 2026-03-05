@@ -1,6 +1,6 @@
 /* Burger */
 .burger {
-    position: absolute;
+    position: fixed;
     top: 25px;
     left: 25px;
     width: 30px;
