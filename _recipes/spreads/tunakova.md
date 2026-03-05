@@ -23,4 +23,5 @@ category: "Pomazánky"
 5. Můžeme ihned servírovat nebo necháme uležet v lednici třeba přes noc.
 
 > **Tip:** Opatrně, aby nebyla vajíčka ještě teplá.
+
 > **Tip:** Ideální je servírovat na čerstvém chlebu, případně toustovém chlebu.
