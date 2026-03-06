@@ -26,10 +26,7 @@ layout: none
     <p class="quote">„Tuk je nositel chuti“</p>
     <p class="recipe-count">
         Aktuální počet receptů: 
-        <strong>
-            {% assign recipes = site.html_pages | where_exp: "item", "item.url contains '/recipes/'" %}
-            {{ recipes | size }}
-        </strong>
+        <strong>{{ site.recipes | size }}</strong>
     </p>
 
     <section class="search-container">

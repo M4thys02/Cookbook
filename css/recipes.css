@@ -99,7 +99,7 @@ main ul li {
 .tips {
     background-color: #fffdf0; /* Slightly more yellow background for tips */
     border: 2px solid #f0e4b8;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 30px;
     margin-bottom: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
