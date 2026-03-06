@@ -116,7 +116,7 @@ main ul li {
 }
 
 /* Creating checkbox in front of text */
-main ul li::before {
+.ingredients ul li::before, .spices ul li::before {
     content: "";
     display: inline-block;
     width: 20px;
@@ -132,13 +132,13 @@ main ul li::before {
 }
 
 /* STATE AFTER UN-CHECK */
-main ul li.done {
+.ingredients ul li.done, .spices ul li.done {
     color: #a0a0a0;
     text-decoration: line-through;
 }
 
 /* Green checkmark */
-main ul li.done::before {
+.ingredients ul li.done::before, .spices ul li.done::before {
     background-color: #4CAF50;
     border-color: transparent;
     background-image: url("../assets/checkmark.svg");
