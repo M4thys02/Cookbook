@@ -20,6 +20,40 @@ h1 {
     color: #2e1a12;
 }
 
+/* --- Maincontainer and centering--- */
+main {
+    max-width: 800px; /* Limits the maximum text width for better readability */
+    margin: 40px auto; /* Automatically centers the block in the middle of the page */
+    padding: 0 20px; /* Protective padding so content doesn't touch the edges on mobile */
+}
+
+/* --- Styles for individual blocks with content --- */
+.ingredients, .spices, .procedure {
+    background-color: #ffffff;
+    border: 2px solid #e0d5c5;
+    border-radius: 12px;
+    padding: 30px; /* Inner space between the text and the border */
+    margin-bottom: 30px; /* Spacing between the blocks */
+    box-shadow: 0 4px 15px rgba(46, 26, 18, 0.05);
+    text-align: left;
+}
+
+/* --- Titles of section inside blocks --- */
+.ingredients h2, .spices h2, .procedure h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #2e1a12;
+    margin-top: 0;
+    margin-bottom: 20px; /* Space below the heading */
+    padding-bottom: 15px; /* Space for the dividing line */
+    border-bottom: 1px dashed #e0d5c5; /* Nice dashed line for elegant text separation */
+}
+
+/* --- Lists alignment --- */
+main ul, main ol {
+    padding-left: 0;
+}
+
 /*Style for instruction*/
 main ol li {
     padding-left: 0;
