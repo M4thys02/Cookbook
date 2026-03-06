@@ -24,7 +24,13 @@ layout: none
     </div>
     <h1>Kuchařka</h1>
     <p class="quote">„Tuk je nositel chuti“</p>
-    <p class="recipe-count">Aktuální počet receptů: <strong>{{ site.html_pages | size }}</strong></p>
+    <p class="recipe-count">
+        Aktuální počet receptů: 
+        <strong>
+            {% assign recipes = site.html_pages | where_exp: "item", "item.url contains '/recipes/'" %}
+            {{ recipes | size }}
+        </strong>
+    </p>
 
     <section class="search-container">
         <input type="text" id="recipe-search" placeholder="Hledat recept (např. palačinky)...">
