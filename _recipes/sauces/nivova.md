@@ -6,7 +6,7 @@ category: "Omáčky, slaná jídla"
 
 ### Ingredience
 * 500 g masa - kuřecí/krůtí
-* 500 ml smetany na vaření - 33 %
+* 500 ml smetany
 * 2 až 3 nivy
 * 1 cibule
 * 1 pórek
