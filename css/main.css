@@ -28,6 +28,19 @@ h1 {
     margin-top: 10px;
 }
 
+.recipe-count {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: #5d4037;
+    margin-top: -10px;
+    opacity: 0.8;
+}
+
+.recipe-count strong {
+    color: #2e1a12;
+    font-weight: 400;
+}
+
 /*Search-bar*/
 .search-container {
     margin: 20px auto;
