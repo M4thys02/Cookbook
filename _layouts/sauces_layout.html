@@ -54,15 +54,22 @@
                 {% endfor %}
                 </ul>
         </div>
-
+        
         <div class="procedure">
             <h2>Postup</h2>
-                <ol>
-                {% for step in page.steps %}
-                <li>{{ step }}</li>
-                {% endfor %}
-                </ol>
+                {{ content }}
         </div>
+
+        {% if page.tips %}
+        <div class="tips">
+            <h2>Tipy</h2>
+            <ul>
+                {% for tip in page.tips %}
+                <li>{{ tip }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
     </main>
 
     <footer class="site-footer">

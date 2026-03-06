@@ -1,24 +1,26 @@
 ---
-layout: desserts_layout
+layout: sauces_layout
 title: "Nivová omáčka s curry"
 category: "Omáčky, slaná jídla"
+
+ingredients:
+  - 500 g masa - kuřecí/krůtí
+  - 500 ml smetany
+  - 2 až 3 nivy
+  - 1 cibule
+  - 1 pórek
+  - olej pod maso
+
+spices:
+  - Kořenící komando (curry, gyros, čína)
+  - Sójová omáčka
+  - Solamil - škrob
+  - Případně sůl a pepř
+
+tips:
+- "S krůtím masem je omáčka chuťově zajímavější."
+- "Podáváme s rýží, těstovinami nebo kroketami."
 ---
-
-### Ingredience
-* 500 g masa - kuřecí/krůtí
-* 500 ml smetany
-* 2 až 3 nivy
-* 1 cibule
-* 1 pórek
-* olej pod maso
-
-### Koření
-* Kořenící komando (curry, gyros, čína)
-* Sójová omáčka
-* Solamil - škrob
-* Případně sůl a pepř
-
-### Postup
 0. Pokud máme čas, maso nakrájíme na malé kousky a okořeníme vším kořením předem a necháme marinovat několik hodin.
 1. Nakrájíme pórek, cibuli, případně maso.
 2. Do hrnce dáme trošku oleje, aby se maso nepřipalovalo a hodíme tam nakrájenou cibuli.
@@ -37,6 +39,3 @@ category: "Omáčky, slaná jídla"
     > **⚠ POZOR:** Smetana omáčku velmi ředí a výrazně zmírňuje chuť koření.
 10. Můžeme ještě chvíli vařit pro odpaření vody, ale pozor na oddělení tuku od vody ze smetany.
 11. Servírujeme.
-
-> **Tip:** S krůtím masem je omáčka lepší.  
-> **Tip:** Podáváme s rýží, těstovinami nebo kroketami.

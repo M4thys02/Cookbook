@@ -31,7 +31,7 @@ main {
 .ingredients, .spices, .procedure {
     background-color: #ffffff;
     border: 2px solid #e0d5c5;
-    border-radius: 12px;
+    border-radius: 8px;
     padding: 30px; /* Inner space between the text and the border */
     margin-bottom: 30px; /* Spacing between the blocks */
     box-shadow: 0 4px 15px rgba(46, 26, 18, 0.05);
@@ -73,6 +73,46 @@ main ul li {
     cursor: pointer;
     transition: all 0.2s ease;
     user-select: none;
+}
+
+/* --- Styling Markdown content inside procedure --- */
+.procedure blockquote {
+    margin: 20px 0;
+    padding: 15px 20px;
+    background-color: #fff5f5; /* Light red/orange for warnings */
+    border-left: 5px solid #e57373;
+    color: #b71c1c;
+    font-style: italic;
+}
+
+/* Fix for nested lists in Markdown (the a, b, c scenarios) */
+.procedure ol ol {
+    list-style-type: lower-alpha;
+    margin-top: 10px;
+}
+
+.procedure ol li {
+    margin-bottom: 12px;
+}
+
+/* --- Section for Tips --- */
+.tips {
+    background-color: #fffdf0; /* Slightly more yellow background for tips */
+    border: 2px solid #f0e4b8;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.tips h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #2e1a12;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #f0e4b8;
 }
 
 /* Creating checkbox in front of text */
