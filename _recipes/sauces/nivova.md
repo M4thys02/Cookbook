@@ -1,5 +1,5 @@
 ---
-layout: sauces_layout
+layout: desserts_layout
 title: "Nivová omáčka s curry"
 category: "Omáčky, slaná jídla"
 ---

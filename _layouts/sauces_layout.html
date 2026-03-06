@@ -37,7 +37,32 @@
     <div id="overlay"></div>
 
     <main>
-        {{ content }}
+        <div class="ingredients">
+            <h2>Ingredience</h2>
+                <ul>
+                    {% for item in page.ingredients %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+        </div>
+
+        <div class="spices">
+            <h2>Koření</h2>
+                <ul>
+                {% for item in page.spices %}
+                <li>{{ item }}</li>
+                {% endfor %}
+                </ul>
+        </div>
+
+        <div class="procedure">
+            <h2>Postup</h2>
+                <ol>
+                {% for step in page.steps %}
+                <li>{{ step }}</li>
+                {% endfor %}
+                </ol>
+        </div>
     </main>
 
     <footer class="site-footer">
