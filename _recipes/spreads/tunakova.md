@@ -1,5 +1,5 @@
 ---
-layout: desserts_layout
+layout: spreads_layout
 title: "Tuňáková pomazánka"
 category: "Pomazánky"
 ---

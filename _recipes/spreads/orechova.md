@@ -1,5 +1,5 @@
 ---
-layout: desserts_layout
+layout: spreads_layout
 title: "Ořechová pomazánka z lučiny"
 category: "Pomazánky"
 ---
