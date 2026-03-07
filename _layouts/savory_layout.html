@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | Kuchařka</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/css/recipes.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/css/menu.css' | relative_url }}">
+    <script src="{{ '/js/checkbox.js' | relative_url }}" defer></script>
+    <script src="{{ '/js/menu_anim.js' | relative_url }}" defer></script>
+</head>
+<body>
+    <header>
+        <div class="burger" aria-label="Otevřít menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>{{ page.title }}</h1>
+        <p class="category">Kategorie: {{ page.category }}</p>
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="{{ '/webs/sweet_index.html' | relative_url }}">Sladká jídla</a></li>
+            <li><a href="{{ '/webs/desserts_index.html' | relative_url }}">Dezerty</a></li>
+            <li><a href="{{ '/webs/spreads_index.html' | relative_url }}">Pomazánky</a></li>
+            <li><a href="{{ '/webs/savory_index.html' | relative_url }}">Slaná jídla</a></li>
+            <li><a href="{{ '/webs/sauces_index.html' | relative_url }}">Omáčky</a></li>
+            <li><a href="{{ '/webs/soups_index.html' | relative_url }}">Polévky</a></li>
+            <li><a href="{{ '/webs/christmas_index.html' | relative_url }}">Vánoční cukroví</a></li>
+            
+            <li class="back-link"><a href="https://m4thys02.github.io/Cookbook/">← Zpět</a></li>
+        </ul>
+    </nav>
+
+    <div id="overlay"></div>
+
+    <main>
+        <div class="ingredients">
+            <h2>Ingredience</h2>
+                <ul>
+                    {% for item in page.ingredients %}
+                    <li>{{ item }}</li>
+                    {% endfor %}
+                </ul>
+        </div>
+
+        {% if page.spices %}
+        <div class="spices">
+            <h2>Koření</h2>
+                <ul>
+                {% for item in page.spices %}
+                <li>{{ item }}</li>
+                {% endfor %}
+                </ul>
+        </div>
+        {% endif %}
+        
+        <div class="procedure">
+            <h2>Postup</h2>
+                {{ content }}
+        </div>
+
+        {% if page.tips %}
+        <div class="tips">
+            <h2>Tipy</h2>
+            <ul>
+                {% for tip in page.tips %}
+                <li>{{ tip }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Autor</h3>
+                <ul class="footer-list">
+                    <li>Matěj Maroušek</li>
+                    <li><a href="mailto:matej.marousek150@student.cuni.cz">Email</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Odkazy</h3>
+                <ul class="footer-list">
+                    <li><a href="https://m4thys02.github.io/">Osobní stránka</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
