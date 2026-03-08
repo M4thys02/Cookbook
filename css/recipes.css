@@ -74,7 +74,6 @@ main ul li {
  
 /* Set tips text as regular text */
 .tips ul li {
-    cursor: default;
     user-select: text;
 }
 
