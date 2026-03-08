@@ -73,12 +73,15 @@ main ul li {
 }
  
 /* Set tips text as regular text */
-.tips ul li {
+.tips-list li {
+    cursor: default;
     user-select: text;
+    display: list-item;
 }
 
-.tips ul li:hover {
-    background-color: transparent; 
+.tips-list {
+    padding-left: 20px;
+    list-style-type: disc; /* Klasická tečka */
 }
 
 /*Style for instruction*/
