@@ -39,7 +39,9 @@ main {
 
 .tips {
     background-color: #fffdf0;
-    border-color: #f0e4b8;
+    border: 2px solid #f0e4b8;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
 }
 
 /* --- Titles of section inside blocks --- */
