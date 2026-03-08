@@ -42,6 +42,8 @@ main {
     border: 2px solid #f0e4b8;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
 /* --- Titles of section inside blocks --- */
