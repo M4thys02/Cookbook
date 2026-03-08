@@ -43,6 +43,7 @@ h1 {
 
 /*Search-bar*/
 .search-container {
+    width: calc(100% - 40px);
     margin: 20px auto;
     padding: 0px;
     max-width: 600px;
