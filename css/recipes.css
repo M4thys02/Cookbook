@@ -71,6 +71,16 @@ main ul li {
     transition: all 0.2s ease;
     user-select: none;
 }
+ 
+/* Set tips text as regular text */
+.tips ul li {
+    cursor: default;
+    user-select: text;
+}
+
+.tips ul li:hover {
+    background-color: transparent; 
+}
 
 /*Style for instruction*/
 main ol {
