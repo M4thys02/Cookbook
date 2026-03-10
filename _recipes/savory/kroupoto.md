@@ -4,16 +4,16 @@ title: "Kroupoto s usušenými houbami"
 category: "Slaná jídla"
 
 ingredients:
-    - 500 g krup střední velikosti
-    - min. 1 hrst sušených hub
-    - 2 mrkve
-    - 1 petržel
-    - 1 cibule
-    - 125 g slaniny
-    - nastrouhaný parmazán
+  - 500 g krup střední velikosti
+  - min. 1 hrst sušených hub
+  - 2 mrkve
+  - 1 petržel
+  - 1 cibule
+  - 125 g slaniny
+  - nastrouhaný parmazán
 spices:
-    - sůl, pepř
-    - polévkové bylinky
+  - sůl, pepř
+  - polévkové bylinky
 
 tips:
     > **⚠ POZOR:** Opatrně na množství krup, hodně při vaření nabydou.
