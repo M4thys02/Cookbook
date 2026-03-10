@@ -16,7 +16,7 @@ spices:
   - polévkové bylinky
 
 tips:
-    "> **⚠ POZOR:** Opatrně na množství krup, hodně při vaření nabydou."
+  "> **⚠ POZOR:** Opatrně na množství krup, hodně při vaření nabydou."
 ---
 1. Minimálně hodinu dopředu namočíme kroupy do vody. Namočíme sušené houby do studené vody do misky.
 2. Po uplynulé době kroupy uvaříme doměkka, přidáme k nim polévkové byliny, aby kroupy chytly nějakou chuť.
