@@ -5,7 +5,7 @@ category: "Pomazánky"
 
 ingredients:
   - 1 sklenice/konzerva cizrny
-  - Stroužek česneku
+  - 1 stroužek česneku
   - Citrónová šťáva
   - Sůl
   - Olivový olej
